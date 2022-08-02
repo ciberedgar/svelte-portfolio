@@ -9,9 +9,12 @@ import Masthead from './Components/Masthead.svelte';
 	<head>
 		<meta charset="UTF-8">
 	</head>
-	
 	<div class="pb-1"><Masthead/></div>
 
+	<div class="min-h-screen flex flex-col items-center justify-center overflow-hidden ">
+		hola
+	</div>
+	
 	<footer class="pt-6 text-center"><Footer/></footer>
 </main>
 
@@ -26,4 +29,21 @@ import Masthead from './Components/Masthead.svelte';
   font-family: "Warp";
   src: url("/font/warp.otf");
 }
+* {
+  box-sizing: border-box;
+}
+body {
+    overflow: overlay;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000000a1;
+  border-radius: 20px;
+}
+
 </style>

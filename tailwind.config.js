@@ -27,7 +27,7 @@ module.exports = {
                 sans: ['Graphik', 'sans-serif'],
                 serif: ['Merriweather', 'serif'],
                 italic: ['Nelphim'],
-                Dalton: ['Warp'],
+                Dalton: ['Tranquilitynewbold'],
             },
             extend: {
                 spacing: {

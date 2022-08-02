@@ -21,6 +21,7 @@
     "tailwindcss": "^3.1.7"
   },
   "dependencies": {
+    "gsap": "^3.10.4",
     "sirv-cli": "^2.0.0"
   }
 }
